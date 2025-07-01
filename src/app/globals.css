@@ -3,5 +3,9 @@
 @theme {
   --color-primary: #3a8ef6;
   --color-secondary: #6c87ae;
-  --color-dark: #031432
+  --color-dark: #031432;
+}
+
+body {
+  background-color: #f9fbfc;
 }
