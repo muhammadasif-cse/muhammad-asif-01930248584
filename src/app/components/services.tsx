@@ -56,7 +56,7 @@ const Services = () => {
           {services.map((service) => (
             <div
               key={service.id}
-              className={`${service.bgColor} rounded-2xl p-6 sm:p-8 lg:p-10 hover:shadow-lg transition-all duration-300 hover:scale-105`}
+              className={`${service.bgColor} shadow-lg rounded-2xl p-6 sm:p-8 lg:p-10 hover:shadow-lg transition-all duration-300 hover:scale-105`}
             >
               <div
                 className={`${service.iconBg} w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24 rounded-full flex items-center justify-center mb-6 sm:mb-8`}

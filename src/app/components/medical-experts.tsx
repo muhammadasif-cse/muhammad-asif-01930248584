@@ -15,7 +15,7 @@ const MedicalExperts = () => {
                   alt="Medical Building"
                   width={500}
                   height={400}
-                  className="w-full  rounded-3xl object-cover "
+                  className="w-full rounded-3xl object-cover "
                   priority
                 />
 
