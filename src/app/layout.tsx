@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Sora } from "next/font/google";
 import "./globals.css";
 import Navigation from "@/components/navigation/navigation";
+import Footer from "@/components/footer";
 
 const sora = Sora({
   variable: "--font-sora",
@@ -28,6 +29,7 @@ export default function RootLayout({
       <body className={`${sora.variable} ${soraMono.variable} antialiased`}>
         <Navigation />
         {children}
+        <Footer />
       </body>
     </html>
   );

@@ -12,7 +12,7 @@ export default function Logo({
     <>
       {version === "white" ? (
         <Image
-          src="/assets/logo-white.svg"
+          src="/assets/logo-klinik-white.svg"
           alt="Logo"
           width={172}
           height={49}
